@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.1">
+    <components>
+        <component type="operating-system">
+            <group>google</group>
+            <name>android</name>
+            <version>all</version>
+            <cpe>cpe:2.3:o:google:android:*:*:*:*:*:*:*:*</cpe>
+        </component>
+    </components>
+</bom>

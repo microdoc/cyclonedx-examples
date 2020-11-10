@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.1">
+    <components>
+        <component type="application">
+            <group>oracle</group>
+            <name>graalvm</name>
+            <version>all</version>
+            <cpe>cpe:2.3:a:oracle:graalvm:*:*:*:*:*:*:*:*</cpe>
+        </component>
+    </components>
+</bom>

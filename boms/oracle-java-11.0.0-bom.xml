@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.1">
+    <components>
+        <component type="application">
+            <group>oracle</group>
+            <name>jre</name>
+            <version>11.0.0</version>
+            <cpe>cpe:2.3:a:oracle:jre:11.0.0:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jdk</name>
+            <version>11.0.0</version>
+            <cpe>cpe:2.3:a:oracle:jdk:11.0.0:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jre</name>
+            <version>11.0.1</version>
+            <cpe>cpe:2.3:a:oracle:jre:11.0.1:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jdk</name>
+            <version>11.0.1</version>
+            <cpe>cpe:2.3:a:oracle:jdk:11.0.1:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jre</name>
+            <version>11.0.2</version>
+            <cpe>cpe:2.3:a:oracle:jre:11.0.2:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jdk</name>
+            <version>11.0.2</version>
+            <cpe>cpe:2.3:a:oracle:jdk:11.0.2:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jre</name>
+            <version>11.0.3</version>
+            <cpe>cpe:2.3:a:oracle:jre:11.0.3:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jdk</name>
+            <version>11.0.3</version>
+            <cpe>cpe:2.3:a:oracle:jdk:11.0.3:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jre</name>
+            <version>11.0.4</version>
+            <cpe>cpe:2.3:a:oracle:jre:11.0.4:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jdk</name>
+            <version>11.0.4</version>
+            <cpe>cpe:2.3:a:oracle:jdk:11.0.4:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jre</name>
+            <version>11.0.5</version>
+            <cpe>cpe:2.3:a:oracle:jre:11.0.5:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jdk</name>
+            <version>11.0.5</version>
+            <cpe>cpe:2.3:a:oracle:jdk:11.0.5:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jre</name>
+            <version>11.0.6</version>
+            <cpe>cpe:2.3:a:oracle:jre:11.0.6:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jdk</name>
+            <version>11.0.6</version>
+            <cpe>cpe:2.3:a:oracle:jdk:11.0.6:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jre</name>
+            <version>11.0.7</version>
+            <cpe>cpe:2.3:a:oracle:jre:11.0.7:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jdk</name>
+            <version>11.0.7</version>
+            <cpe>cpe:2.3:a:oracle:jdk:11.0.7:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jre</name>
+            <version>11.0.7</version>
+            <cpe>cpe:2.3:a:oracle:jre:11.0.8:*:*:*:*:*:*:* </cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jdk</name>
+            <version>11.0.7</version>
+            <cpe>cpe:2.3:a:oracle:jdk:11.0.8:*:*:*:*:*:*:* </cpe>
+        </component>
+    </components>
+</bom>

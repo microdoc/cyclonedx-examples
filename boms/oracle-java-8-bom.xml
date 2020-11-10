@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.1">
+    <components>
+        <component type="application">
+            <group>oracle</group>
+            <name>jre</name>
+            <version>1.8.0</version>
+            <cpe>cpe:2.3:a:oracle:jre:1.8.0:*:*:*:*:*:*:*</cpe>
+        </component>
+        <component type="application">
+            <group>oracle</group>
+            <name>jdk</name>
+            <version>1.8.0</version>
+            <cpe>cpe:2.3:a:oracle:jdk:1.8.0:*:*:*:*:*:*:*</cpe>
+        </component>
+    </components>
+</bom>
