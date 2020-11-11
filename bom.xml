@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:80927f7c-6db1-49c6-a55c-7f4a82c1a7a3" version="1">
+    <metadata>
+        <timestamp>2020-11-10T22:35:50Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>CycloneDX</vendor>
+                <name>CycloneDX Maven plugin</name>
+                <version>2.1.0</version>
+                <hashes>
+                    <hash alg="MD5">8e88d16f19492a5c3f600a264031532b</hash>
+                    <hash alg="SHA-1">8d9239362e174332caf023a37c74b968bce3214f</hash>
+                    <hash alg="SHA-256">403a7a0c008d2d9d3c76775c4c3c538cf79fc476d164885e70f1d0ce6c89d7df</hash>
+                    <hash alg="SHA-384">d50a1c04a495bf088585e2364b7f9052e4c981b5e0eb6fed6a036c57d8e8042ebaffb4d0c1c53f022cfb3394049c52c7</hash>
+                    <hash alg="SHA-512">0c5b9f044f481b72872f859837f564cb09807d5f791b6c99980ff0e3737ff0185c92056980d7a1e7939b9b585976e4eb7d995f86ab46dce505e498a1816e1b0b</hash>
+                </hashes>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/com.microdoc.examples/cyclonedx-example@1.0.0" type="library">
+            <group>com.microdoc.examples</group>
+            <name>cyclonedx-example</name>
+            <version>1.0.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.microdoc.examples/cyclonedx-example@1.0.0</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/javax.inject/javax.inject@1?type=jar" type="library">
+            <group>javax.inject</group>
+            <name>javax.inject</name>
+            <version>1</version>
+            <description><![CDATA[The javax.inject API]]></description>
+            <scope>optional</scope>
+            <hashes>
+                <hash alg="MD5">289075e48b909e9e74e6c915b3631d2e</hash>
+                <hash alg="SHA-1">6975da39a7040257bd51d21a231b76c915872d38</hash>
+                <hash alg="SHA-256">91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff</hash>
+                <hash alg="SHA-384">ac04c9f03ccbe35a25deb8b50280a0ca01dbe6aff0dd795d55af6112bfe3cd5817eb82f32fb18378d86cd64b07597190</hash>
+                <hash alg="SHA-512">e126b7ccf3e42fd1984a0beef1004a7269a337c202e59e04e8e2af714280d2f2d8d2ba5e6f59481b8dcd34aaf35c966a688d0b48ec7e96f102c274dc0d3b381e</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/javax.inject/javax.inject@1?type=jar</purl>
+            <externalReferences>
+                <reference type="vcs">
+                    <url>http://code.google.com/p/atinject/source/checkout</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/log4j/log4j@1.2.15?type=jar" type="library">
+            <publisher>Apache Software Foundation</publisher>
+            <group>log4j</group>
+            <name>log4j</name>
+            <version>1.2.15</version>
+            <description><![CDATA[Apache Log4j 1.2]]></description>
+            <scope>optional</scope>
+            <hashes>
+                <hash alg="MD5">4d4609998fbc124ce6f0d1d48fca2614</hash>
+                <hash alg="SHA-1">f0a0d2e29ed910808c33135a3a5a51bba6358f7b</hash>
+                <hash alg="SHA-256">9f5f5799707881451a39c1b2dd22b4e43b97a80698db7daf1c9697f545e24387</hash>
+                <hash alg="SHA-384">000cde707379c07e36d8903c876c1a9467cd0cf8c202fca60b7c3be27ab516537b6ea8364ac01ee2c8ca6aff33429f0a</hash>
+                <hash alg="SHA-512">668617d5e2c249ae307e1f54f63fbf670938e708560443dcc8bc1cb47733791b4c70aaba939ca4a115a3e940952b3d372a2b193cbbacdbcddf8c45c44c987c47</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/log4j/log4j@1.2.15?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.apache.org</url>
+                </reference>
+                <reference type="build-system">
+                    <url>http://vmgump.apache.org/gump/public/logging-log4j-12/logging-log4j-12/index.html</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://issues.apache.org/bugzilla/</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://mail-archives.apache.org/mod_mbox/logging-log4j-dev/</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://svn.apache.org/viewcvs.cgi/logging/log4j/tags/v1_2_15_rc6</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/javax.mail/mail@1.4?type=jar" type="library">
+            <group>javax.mail</group>
+            <name>mail</name>
+            <version>1.4</version>
+            <description><![CDATA[The JavaMail API provides a platform-independent and protocol-independent framework to build mail and messaging applications.]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">2e64a3805d543bdb86e6e5eeca5529f8</hash>
+                <hash alg="SHA-1">1aa1579ae5ecd41920c4f355b0a9ef40b68315dd</hash>
+                <hash alg="SHA-256">96868f82264ebd9b7d41f04d78cbe87ab75d68a7bbf8edfb82416aabe9b54b6c</hash>
+                <hash alg="SHA-384">39c8f5faf384f8e10d6ea5734729ff2b80e3104b528a67c8b11745c354495a8024ae1d7735e1674f9347cd7a8ed0736a</hash>
+                <hash alg="SHA-512">75a6b7bcd21b97f534ebe60fe02317aeb2b317d80228d89e64d12704e1ef10ee3189bacc73c506bde53b7c862caf1460723b597192143fe724ffe290604312ee</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Common Development and Distribution License (CDDL) v1.0</name>
+                    <url>https://glassfish.dev.java.net/public/CDDLv1.0.html</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/javax.mail/mail@1.4?type=jar</purl>
+            <externalReferences>
+                <reference type="distribution">
+                    <url>https://maven-repository.dev.java.net/nonav/repository/javax.mail/jars/mail-1.4.jar</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/javax.activation/activation@1.1?type=jar" type="library">
+            <group>javax.activation</group>
+            <name>activation</name>
+            <version>1.1</version>
+            <description><![CDATA[JavaBeans Activation Framework (JAF) is a standard extension to the Java platform that lets you take advantage of standard services to: determine the type of an arbitrary piece of data; encapsulate access to it; discover the operations available on it; and instantiate the appropriate bean to perform the operation(s).]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">8ae38e87cd4f86059c0294a8fe3e0b18</hash>
+                <hash alg="SHA-1">e6cb541461c2834bdea3eb920f1884d1eb508b50</hash>
+                <hash alg="SHA-256">2881c79c9d6ef01c58e62beea13e9d1ac8b8baa16f2fc198ad6e6776defdcdd3</hash>
+                <hash alg="SHA-384">c4ee54d80a2e67e819700051d6cfa01a17631c89f942b8690afb601e491f02d7497fe57bd5c70edfb9b444ae8222b846</hash>
+                <hash alg="SHA-512">c0ff5bf3ace7acc1b31fcc109cee48d9eb8f025ae15a31dc91eca760933bdb97c93f05d61e95af1e317859d72e5f179f897f5bf3df0e3810f4212d43bacee4bd</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Common Development and Distribution License (CDDL) v1.0</name>
+                    <url>https://glassfish.dev.java.net/public/CDDLv1.0.html</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/javax.activation/activation@1.1?type=jar</purl>
+            <externalReferences>
+                <reference type="distribution">
+                    <url>https://maven-repository.dev.java.net/nonav/repository/javax.activation/jars/activation-1.1.jar</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/javax.jms/jms@1.1?type=jar" type="library">
+            <group>javax.jms</group>
+            <name>jms</name>
+            <version>1.1</version>
+            <description><![CDATA[The Java Message Service (JMS) API is a messaging standard that allows application components based on the Java 2 Platform, Enterprise Edition (J2EE) to create, send, receive, and read messages. It enables distributed communication that is loosely coupled, reliable, and asynchronous.]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">ad558b2376ce94b91bb72d67b30a4f05</hash>
+                <hash alg="SHA-1">5e106d07e523fb6d40cf086b9b413268f6302f26</hash>
+                <hash alg="SHA-256">7de11aa5fb1c51133ba6c1fe96bd296eeea5d86ccb862cc9a5274aa943c91548</hash>
+                <hash alg="SHA-384">f8260c223a810b1c26cda0b2840561037b2f7ed3e74432a9821aa13d1940efed2894ecf4d165eb792f4ccf8cb2ea9253</hash>
+                <hash alg="SHA-512">0b15c4dc0a3052b57d2de6cd1952b9b695832ef7f501a7b66e1a0b00a3ea1e7e410d3cb48ca1a9d8a3948f1c6913b16d274dc8bb279735dfaec2ceed1aaf41f0</hash>
+            </hashes>
+            <purl>pkg:maven/javax.jms/jms@1.1?type=jar</purl>
+            <externalReferences>
+                <reference type="distribution">
+                    <url>http://java.sun.com/products/jms/docs.html</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/com.sun.jdmk/jmxtools@1.2.1?type=jar" type="library">
+            <group>com.sun.jdmk</group>
+            <name>jmxtools</name>
+            <version>1.2.1</version>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">70dfba19642b172d5ac5f6271d8243a0</hash>
+                <hash alg="SHA-1">54a8baf07cfc07bd7c0f68fcfb72b9ba618ee601</hash>
+                <hash alg="SHA-256">66fd835a78db1e70c6550e76264db61b2a74bc4363fcc3d3aab03c18aba6244a</hash>
+                <hash alg="SHA-384">b781f99e977830e802442455eb0a656090fa05a89c8683dad5d8df9671ee18fb6c28560bc9cc6b145955d91dd102b6cc</hash>
+                <hash alg="SHA-512">fc929d26fc5f46bb3207443b8aa2c2c58b4a4e12c293790b7d96d12766dca5f36e61cde5f79cd6292f20c59328de989e1e46ceefa1de416830c7f594d4068f05</hash>
+            </hashes>
+            <purl>pkg:maven/com.sun.jdmk/jmxtools@1.2.1?type=jar</purl>
+            <externalReferences>
+                <reference type="distribution">
+                    <url>http://java.sun.com/products/JavaManagement/download.html</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/com.sun.jmx/jmxri@1.2.1?type=jar" type="library">
+            <group>com.sun.jmx</group>
+            <name>jmxri</name>
+            <version>1.2.1</version>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">4a1e41354de6311793cd8bcb035eb748</hash>
+                <hash alg="SHA-1">df366b735b29a80a5e0e5c7960971d4710e5147d</hash>
+                <hash alg="SHA-256">2f91fafe43bb7dc17804c2fc2f94a9fea38136140fa8a006a880b2775edebc0f</hash>
+                <hash alg="SHA-384">f51964abab7f4ba382e973e00af291f5ef45736d9a3b61e9a113ba60de5075a960a5bf92e3c13074692ef9560b9ac2be</hash>
+                <hash alg="SHA-512">15efbfbccf34a8aff84d60bd3979de8912f208b0040d81df5096c3167dd70f4c57677dfb02dbc1e39f11bb7ad393bb967ae9604c620a73d05ddefef00767f7b6</hash>
+            </hashes>
+            <purl>pkg:maven/com.sun.jmx/jmxri@1.2.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.cxf/cxf-core@3.0.11?type=jar" type="library">
+            <publisher>The Apache Software Foundation</publisher>
+            <group>org.apache.cxf</group>
+            <name>cxf-core</name>
+            <version>3.0.11</version>
+            <description><![CDATA[Apache CXF Core]]></description>
+            <scope>optional</scope>
+            <hashes>
+                <hash alg="MD5">e6c21f9b9abcd8d381c00c6d2142f6d5</hash>
+                <hash alg="SHA-1">bdc894322cb38c3b0d68a653b2d3bdf02d8a906b</hash>
+                <hash alg="SHA-256">b36319d9abc80ff397c0e457590119fcce2761437ca67f9c76ca8cdb5415a638</hash>
+                <hash alg="SHA-384">1a5aa2ba50203a04a313a7acb4485bba40c6a46454809f31c015636e21f609cd1d09f5e9d01f37ce37f150aa8eb2b227</hash>
+                <hash alg="SHA-512">dc148dfb953879d0481cf18b2c72e1a4ae0d0a8e6a6a0c2e44457a72874c6acd1307dd0692748b022b78c45d0424d4c279a3904194d2efb94820c8baf31a0135</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.apache.cxf/cxf-core@3.0.11?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.apache.org/</url>
+                </reference>
+                <reference type="build-system">
+                    <url>http://hudson.zones.apache.org/hudson/view/CXF/</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://issues.apache.org/jira/browse/CXF</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://mail-archives.apache.org/mod_mbox/cxf-users</url>
+                </reference>
+                <reference type="vcs">
+                    <url>https://git-wip-us.apache.org/repos/asf?p=cxf.git;a=summary</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.codehaus.woodstox/woodstox-core-asl@4.4.1?type=jar" type="library">
+            <publisher>Codehaus</publisher>
+            <group>org.codehaus.woodstox</group>
+            <name>woodstox-core-asl</name>
+            <version>4.4.1</version>
+            <description><![CDATA[Woodstox is a high-performance XML processor that implements Stax (JSR-173) and SAX2 APIs]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">1f53f91f117288fb2ef2e120f27e5498</hash>
+                <hash alg="SHA-1">84fee5eb1a4a1cefe65b6883c73b3fa83be3c1a1</hash>
+                <hash alg="SHA-256">274fa403ed08c0d6f2f574dc1916adaaaec9a493e56d6442f8797ede620bca65</hash>
+                <hash alg="SHA-384">e9b4203ae09719337238413d5b8db19563b5a6f6fd3630a3c64b07f1e7a43b3b6e4bb9c3016fca264f3c1502462659fa</hash>
+                <hash alg="SHA-512">33165cb587901e8908fa2589f16a6d1eeb87429936734e840b607e0a80c6a6680536eb8044536b871f3cd94b54ac734f51fdda9120bce0d2f58754c6822216d0</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.codehaus.woodstox/woodstox-core-asl@4.4.1?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.codehaus.org/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://jira.codehaus.org/browse/WSTX</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://xircles.codehaus.org/projects/woodstox/repos/primary/repo</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4?type=jar" type="library">
+            <publisher>fasterxml.com</publisher>
+            <group>org.codehaus.woodstox</group>
+            <name>stax2-api</name>
+            <version>3.1.4</version>
+            <description><![CDATA[tax2 API is an extension to basic Stax 1.0 API that adds significant new functionality, such as full-featured bi-direction validation interface and high-performance Typed Access API.]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">c08e89de601b0a78f941b2c29db565c3</hash>
+                <hash alg="SHA-1">ac19014b1e6a7c08aad07fe114af792676b685b7</hash>
+                <hash alg="SHA-256">86d7c0b775a7c9b454cc6ba61d40a8eb3b99cc129f832eb9b977a3755b4b338e</hash>
+                <hash alg="SHA-384">83c42936c43d6d6826edea636cf315924cdf52a7201bf07f1cf87a30d2b2855088306c94f39dea55529fed0360cf563f</hash>
+                <hash alg="SHA-512">911e3e250c9ac9098899f12db584b83f36d91e8cca1afeef38c19952a168647dbbc88cb1cbdd5919769342ed09267263a142b12e71cab465b25daeedf2255cb7</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>The BSD License</name>
+                    <url>http://www.opensource.org/licenses/bsd-license.php</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://fasterxml.com</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://github.com/FasterXML/stax2-api</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.2.1?type=jar" type="library">
+            <publisher>The Apache Software Foundation</publisher>
+            <group>org.apache.ws.xmlschema</group>
+            <name>xmlschema-core</name>
+            <version>2.2.1</version>
+            <description><![CDATA[Commons XMLSchema is a light weight schema object model that can be used to manipulate or generate XML schema.]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">bab3d98961f361b5e66dbcdadaad1ecf</hash>
+                <hash alg="SHA-1">02eff1f3776590d4c51cc735eab2143c497329f2</hash>
+                <hash alg="SHA-256">a2c7a43319c213eea338ac0d84cc1aa1dc37cd458886d618703e8bd91bb51993</hash>
+                <hash alg="SHA-384">011975a32c22033d08f2ca0800c430351f48d7e9041ccfb2fbb201a2c42c8c462a8e5ce1ef1ba22291e4f74d7ee4d0d8</hash>
+                <hash alg="SHA-512">3a214f212921451e952e93d19080e5462240fc36fbe95d231ed29422e83951675bdaf493d72b89ad8b64cb91dd31393b255c07a142c23d80006f569942bbd48d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.2.1?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.apache.org/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://issues.apache.org/jira/browse/XMLSCHEMA</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://mail-archives.apache.org/mod_mbox/ws-dev/</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://svn.apache.org/viewvc/webservices/xmlschema/tags/xmlschema-2.2.1</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.cxf/cxf-rt-rs-client@3.0.11?type=jar" type="library">
+            <publisher>The Apache Software Foundation</publisher>
+            <group>org.apache.cxf</group>
+            <name>cxf-rt-rs-client</name>
+            <version>3.0.11</version>
+            <description><![CDATA[Apache CXF JAX-RS Client]]></description>
+            <scope>optional</scope>
+            <hashes>
+                <hash alg="MD5">cccbecbab6ef7912bc497de258780c96</hash>
+                <hash alg="SHA-1">85f61ac9ac635dcb8e8eaaa004b4065ac0cb824a</hash>
+                <hash alg="SHA-256">4b653a75b8c8748a2e8d840fcb9a56a91b1d7a174268df703e71d3d03f2f3012</hash>
+                <hash alg="SHA-384">9a227be7135c758e4b3f682ead75671dbe4b30bbdb0d353d3eda253556fc7d3709572fe3562697679b01b8e8ce6f2e4a</hash>
+                <hash alg="SHA-512">82a365393ddc0c732678a8519ee35b731bc2a6b46e017b9cc6174ac600e95fab8f962b432d3f5743f157a2600933e10b3cdcca08f370b9a9ffcfbf129acc83a3</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.apache.cxf/cxf-rt-rs-client@3.0.11?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.apache.org/</url>
+                </reference>
+                <reference type="build-system">
+                    <url>http://hudson.zones.apache.org/hudson/view/CXF/</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://issues.apache.org/jira/browse/CXF</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://mail-archives.apache.org/mod_mbox/cxf-users</url>
+                </reference>
+                <reference type="vcs">
+                    <url>https://git-wip-us.apache.org/repos/asf?p=cxf.git;a=summary</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.cxf/cxf-rt-transports-http@3.0.11?type=jar" type="library">
+            <publisher>The Apache Software Foundation</publisher>
+            <group>org.apache.cxf</group>
+            <name>cxf-rt-transports-http</name>
+            <version>3.0.11</version>
+            <description><![CDATA[Apache CXF Runtime HTTP Transport]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">27b4c8f7e0af9910c60e15898b82b765</hash>
+                <hash alg="SHA-1">84f0fe196fcc6c46e2ddd492fd99b485a0876a0f</hash>
+                <hash alg="SHA-256">8bf358cdeed2f12a197f849b8c65db85cb35782a1d7bc91770a6658d3593ea72</hash>
+                <hash alg="SHA-384">f2946a1faaff4eb7b5439bd7236e8d111571e417f56dfc39f211bff6a9bb9a33d62a7e90d3e0075deb5da8b61aa0b177</hash>
+                <hash alg="SHA-512">0a927817c04506279ebe80b0b0b7ca96e95453710de7a39a580fee71101f69a67aeb9556a23f31f3162dcd27f0dfcc720936a276aab3bbce98288e3d33b268ca</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.apache.cxf/cxf-rt-transports-http@3.0.11?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.apache.org/</url>
+                </reference>
+                <reference type="build-system">
+                    <url>http://hudson.zones.apache.org/hudson/view/CXF/</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://issues.apache.org/jira/browse/CXF</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://mail-archives.apache.org/mod_mbox/cxf-users</url>
+                </reference>
+                <reference type="vcs">
+                    <url>https://git-wip-us.apache.org/repos/asf?p=cxf.git;a=summary</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxrs@3.0.11?type=jar" type="library">
+            <publisher>The Apache Software Foundation</publisher>
+            <group>org.apache.cxf</group>
+            <name>cxf-rt-frontend-jaxrs</name>
+            <version>3.0.11</version>
+            <description><![CDATA[Apache CXF Runtime JAX-RS Frontend]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">46f2e8f17a7c608d70811cbdf4cdfddf</hash>
+                <hash alg="SHA-1">1be8de15258478270b87aecf3bc13745d37e774a</hash>
+                <hash alg="SHA-256">44c3bf7661adb033c4ca92d3e7285c27802cad5e258525e2ea54090488ce0896</hash>
+                <hash alg="SHA-384">00c0cb94378b60d7389044a2d25850ecedf79feed29758e0ab134d8d26b00121092b90f9163c50fe8cd5e486c9a7508f</hash>
+                <hash alg="SHA-512">938e9f08c714e0e92d1616df1616e190f3f1dc879a16cfd1347ec9f189657447bf28325ddd30543b9da92f3b25313f9e3ac3a9138de89e1e43da18c475b6471d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxrs@3.0.11?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.apache.org/</url>
+                </reference>
+                <reference type="build-system">
+                    <url>http://hudson.zones.apache.org/hudson/view/CXF/</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://issues.apache.org/jira/browse/CXF</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://mail-archives.apache.org/mod_mbox/cxf-users</url>
+                </reference>
+                <reference type="vcs">
+                    <url>https://git-wip-us.apache.org/repos/asf?p=cxf.git;a=summary</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/javax.ws.rs/javax.ws.rs-api@2.0.1?type=jar" type="library">
+            <publisher>Oracle Corporation</publisher>
+            <group>javax.ws.rs</group>
+            <name>javax.ws.rs-api</name>
+            <version>2.0.1</version>
+            <description><![CDATA[Java.net - The Source for Java Technology Collaboration]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">edcd111cf4d3ba8ac8e1f326efc37a17</hash>
+                <hash alg="SHA-1">104e9c2b5583cfcfeac0402316221648d6d8ea6b</hash>
+                <hash alg="SHA-256">38607d626f2288d8fbc1b1f8a62c369e63806d9a313ac7cbc5f9d6c94f4b466d</hash>
+                <hash alg="SHA-384">a90b396153ed0b44890ae453a39a12923b433be46bc1ccd92d35598438804e6527d348f99114407b31c625f0f9d44dc3</hash>
+                <hash alg="SHA-512">4a85d3b61ea018f354a4dfa43104f3b4967cb4719df203956f82f7a696f75bee9d660540fc0f7bb61e0a5f826461de8929144eddd5622f9cb59a4da289d7297a</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>CDDL-1.1</id>
+                </license>
+                <license>
+                    <id>GPL-2.0-with-classpath-exception</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/javax.ws.rs/javax.ws.rs-api@2.0.1?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.oracle.com/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://java.net/jira/browse/JAX_RS_SPEC</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://java.net/projects/jax-rs-spec/sources/git/show</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://maven.java.net/service/local/staging/deploy/maven2/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar" type="library">
+            <publisher>GlassFish Community</publisher>
+            <group>javax.annotation</group>
+            <name>javax.annotation-api</name>
+            <version>1.2</version>
+            <description><![CDATA[Common Annotations for the JavaTM Platform API]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">75fe320d2b3763bd6883ae1ede35e987</hash>
+                <hash alg="SHA-1">479c1e06db31c432330183f5cae684163f186146</hash>
+                <hash alg="SHA-256">5909b396ca3a2be10d0eea32c74ef78d816e1b4ead21de1d78de1f890d033e04</hash>
+                <hash alg="SHA-384">37a46eaa1d011969d28ff0daaecd67a560169b3ae70c40102331d85a71139ca07110169fe367f484735914ce5c6b86c0</hash>
+                <hash alg="SHA-512">2453330b27a0822bba440c28b98ae1d83d60d97dfa2d040562dd5126b3548e0caa040fea3b886ac6feb0a858e6c1bc45b6c5472b180f1f14792e5ca33e355959</hash>
+            </hashes>
+            <purl>pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://glassfish.java.net</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://java.net/jira/browse/GLASSFISH</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://java.net/projects/glassfish/sources/svn/show/tags/javax.annotation-api-1.2</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://maven.java.net/service/local/staging/deploy/maven2/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.6?type=jar" type="library">
+            <publisher>FasterXML</publisher>
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-databind</name>
+            <version>2.9.6</version>
+            <description><![CDATA[General data-binding functionality for Jackson: works on core streaming API]]></description>
+            <scope>optional</scope>
+            <hashes>
+                <hash alg="MD5">c6634d654c2df15a987bc37ec8d2b6b2</hash>
+                <hash alg="SHA-1">cfa4f316351a91bfd95cb0644c6a2c95f52db1fc</hash>
+                <hash alg="SHA-256">657e3e979446d61f88432b9c50f0ccd9c1fe4f1c822d533f5572e4c0d172a125</hash>
+                <hash alg="SHA-384">80682058957cb75863d94f0ed223dc69cad95526e41b80d2810bfb04308c6fbd4bf4df90f43edacd8f820d43296b61ea</hash>
+                <hash alg="SHA-512">f0861f775e2aebd61df8a39419f959b61019af7b307812b92beb14d7a234edeaf09c054fbb24a1432f4dd0c726b7d2b535bdc3ecb8b3d00b661e01d4d46ec4be</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.6?type=jar</purl>
+            <externalReferences>
+                <reference type="vcs">
+                    <url>http://github.com/FasterXML/jackson-databind</url>
+                </reference>
+                <reference type="website">
+                    <url>http://fasterxml.com/</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0?type=jar" type="library">
+            <publisher>FasterXML</publisher>
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-annotations</name>
+            <version>2.9.0</version>
+            <description><![CDATA[Core annotations used for value types, used by Jackson data binding package.]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">c09faa1b063681cf45706c6df50685b6</hash>
+                <hash alg="SHA-1">07c10d545325e3a6e72e06381afe469fd40eb701</hash>
+                <hash alg="SHA-256">45d32ac61ef8a744b464c54c2b3414be571016dd46bfc2bec226761cf7ae457a</hash>
+                <hash alg="SHA-384">36289e4a5d6774c4fc6ed38a632a681759a4bc0389616a79edd22298dbcbe8f1bc7a107f00a9ec76b492d125c890a939</hash>
+                <hash alg="SHA-512">266589c36ea544ebca94aecd76ba9dfe88637563b94cf24e46846466b103074c9f95508bfa237c20d0ab9c60bfb6befa2628236dcf7222a69cf1ef9462bcf0b3</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0?type=jar</purl>
+            <externalReferences>
+                <reference type="vcs">
+                    <url>http://github.com/FasterXML/jackson-annotations</url>
+                </reference>
+                <reference type="website">
+                    <url>http://fasterxml.com/</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.6?type=jar" type="library">
+            <publisher>FasterXML</publisher>
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-core</name>
+            <version>2.9.6</version>
+            <description><![CDATA[Core Jackson processing abstractions (aka Streaming API), implementation for JSON]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">f3cf83b839fac92307cad542c2ded5c4</hash>
+                <hash alg="SHA-1">4e393793c37c77e042ccc7be5a914ae39251b365</hash>
+                <hash alg="SHA-256">fab8746aedd6427788ee390ea04d438ec141bff7eb3476f8bdd5d9110fb2718a</hash>
+                <hash alg="SHA-384">59f87a260de53f8ddabe35749cd8abc71e52ebfeacd51b1e68363fe4bf72e632a7ea3648340969e8fdb0eb90d994fff4</hash>
+                <hash alg="SHA-512">a1b9b68b67d442a47e36b46b37b6b0ad7a10c547a1cf7adb4705baec77356e1080049d310b3b530f66bbd3c0ed05cfe43c041d6ef4ffbbc6731149624df4e699</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.6?type=jar</purl>
+            <externalReferences>
+                <reference type="vcs">
+                    <url>http://github.com/FasterXML/jackson-core</url>
+                </reference>
+                <reference type="website">
+                    <url>http://fasterxml.com/</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                </reference>
+            </externalReferences>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/javax.inject/javax.inject@1?type=jar"/>
+        <dependency ref="pkg:maven/log4j/log4j@1.2.15?type=jar">
+            <dependency ref="pkg:maven/javax.mail/mail@1.4?type=jar"/>
+            <dependency ref="pkg:maven/javax.jms/jms@1.1?type=jar"/>
+            <dependency ref="pkg:maven/com.sun.jdmk/jmxtools@1.2.1?type=jar"/>
+            <dependency ref="pkg:maven/com.sun.jmx/jmxri@1.2.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/javax.mail/mail@1.4?type=jar">
+            <dependency ref="pkg:maven/javax.activation/activation@1.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/javax.activation/activation@1.1?type=jar"/>
+        <dependency ref="pkg:maven/javax.jms/jms@1.1?type=jar"/>
+        <dependency ref="pkg:maven/com.sun.jdmk/jmxtools@1.2.1?type=jar"/>
+        <dependency ref="pkg:maven/com.sun.jmx/jmxri@1.2.1?type=jar"/>
+        <dependency ref="pkg:maven/org.apache.cxf/cxf-core@3.0.11?type=jar">
+            <dependency ref="pkg:maven/org.codehaus.woodstox/woodstox-core-asl@4.4.1?type=jar"/>
+            <dependency ref="pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.2.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.codehaus.woodstox/woodstox-core-asl@4.4.1?type=jar">
+            <dependency ref="pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4?type=jar"/>
+        <dependency ref="pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.2.1?type=jar"/>
+        <dependency ref="pkg:maven/org.apache.cxf/cxf-rt-rs-client@3.0.11?type=jar">
+            <dependency ref="pkg:maven/org.apache.cxf/cxf-rt-transports-http@3.0.11?type=jar"/>
+            <dependency ref="pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxrs@3.0.11?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.cxf/cxf-rt-transports-http@3.0.11?type=jar"/>
+        <dependency ref="pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxrs@3.0.11?type=jar">
+            <dependency ref="pkg:maven/javax.ws.rs/javax.ws.rs-api@2.0.1?type=jar"/>
+            <dependency ref="pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/javax.ws.rs/javax.ws.rs-api@2.0.1?type=jar"/>
+        <dependency ref="pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar"/>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.6?type=jar">
+            <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0?type=jar"/>
+            <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.6?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0?type=jar"/>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.6?type=jar"/>
+    </dependencies>
+</bom>
